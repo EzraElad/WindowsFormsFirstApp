@@ -12,4 +12,13 @@
     <ProjectReference Include="..\WindowsFormsFirstApp.Model\WindowsFormsFirstApp.Model.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="AppConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="test.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
