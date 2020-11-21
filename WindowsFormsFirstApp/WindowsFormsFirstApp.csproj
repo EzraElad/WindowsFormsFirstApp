@@ -6,4 +6,9 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WindowsFormsFirstApp.DAL\WindowsFormsFirstApp.DAL.csproj" />
+    <ProjectReference Include="..\WindowsFormsFirstApp.Model\WindowsFormsFirstApp.Model.csproj" />
+  </ItemGroup>
+
 </Project>

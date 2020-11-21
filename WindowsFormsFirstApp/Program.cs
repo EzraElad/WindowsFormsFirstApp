@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsFirstApp.DAL;
 
 namespace WindowsFormsFirstApp
 {
@@ -17,7 +18,8 @@ namespace WindowsFormsFirstApp
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Publisher());
+            IConfigHandler configHandler = new ConfigHandler();
+            Application.Run(new Publisher(configHandler));
         }
     }
 }

@@ -1,0 +1,20 @@
+{
+  "QaUser": {
+    "Username": "",
+    "Password": ""
+  },
+  "ProdUser": {
+    "Username": "",
+    "Password": ""
+  },
+  "QaPrefixPaths": [
+    "",
+    ""
+  ],
+  "ProdPrefixPaths": [
+    "",
+    ""
+  ],
+  "QaAddedPaths": [],
+  "ProdAddedPaths": []
+}
