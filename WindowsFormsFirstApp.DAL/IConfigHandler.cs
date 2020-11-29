@@ -8,5 +8,6 @@ namespace WindowsFormsFirstApp.DAL
      public interface IConfigHandler
     {
         void AddQaUserToJson(QaUser qaUser);
+        QaUser GetQaUser();
     }
 }

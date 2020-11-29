@@ -45,12 +45,16 @@ namespace WindowsFormsFirstApp
 
         }
 
+
         private void qa_cred_btn_Click(object sender, EventArgs e)
         {
             // Gets the values from the input fields
             qaUser.Username = qa_username_tb.Text;
             qaUser.Password = qa_password_tb.Text;
+            qa_current_username.Text = qaUser.Username;
+            qa_current_password.Text = qaUser.Password;
             _configHandler.AddQaUserToJson(qaUser);
         }
+
     }
 }

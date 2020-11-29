@@ -41,6 +41,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.qa_cred_btn = new System.Windows.Forms.Button();
             this.prod_cred_btn = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.qa_current_username = new System.Windows.Forms.Label();
+            this.qa_current_password = new System.Windows.Forms.Label();
+            this.prod_current_username = new System.Windows.Forms.Label();
+            this.prod_current_password = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // qa_username_label
@@ -154,11 +160,77 @@
             this.prod_cred_btn.Text = "Save";
             this.prod_cred_btn.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(622, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(120, 21);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "QA Cradencials";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(593, 186);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(178, 21);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Production Cradencials";
+            // 
+            // qa_current_username
+            // 
+            this.qa_current_username.AutoSize = true;
+            this.qa_current_username.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.qa_current_username.Location = new System.Drawing.Point(657, 67);
+            this.qa_current_username.Name = "qa_current_username";
+            this.qa_current_username.Size = new System.Drawing.Size(39, 21);
+            this.qa_current_username.TabIndex = 4;
+            this.qa_current_username.Text = "elad";
+            // 
+            // qa_current_password
+            // 
+            this.qa_current_password.AutoSize = true;
+            this.qa_current_password.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.qa_current_password.Location = new System.Drawing.Point(657, 108);
+            this.qa_current_password.Name = "qa_current_password";
+            this.qa_current_password.Size = new System.Drawing.Size(52, 21);
+            this.qa_current_password.TabIndex = 4;
+            this.qa_current_password.Text = "label6";
+            // 
+            // prod_current_username
+            // 
+            this.prod_current_username.AutoSize = true;
+            this.prod_current_username.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.prod_current_username.Location = new System.Drawing.Point(657, 235);
+            this.prod_current_username.Name = "prod_current_username";
+            this.prod_current_username.Size = new System.Drawing.Size(52, 21);
+            this.prod_current_username.TabIndex = 4;
+            this.prod_current_username.Text = "label7";
+            // 
+            // prod_current_password
+            // 
+            this.prod_current_password.AutoSize = true;
+            this.prod_current_password.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.prod_current_password.Location = new System.Drawing.Point(657, 278);
+            this.prod_current_password.Name = "prod_current_password";
+            this.prod_current_password.Size = new System.Drawing.Size(52, 21);
+            this.prod_current_password.TabIndex = 4;
+            this.prod_current_password.Text = "label8";
+            // 
             // Publisher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.qa_current_username);
+            this.Controls.Add(this.prod_current_password);
+            this.Controls.Add(this.prod_current_username);
+            this.Controls.Add(this.qa_current_password);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.prod_cred_btn);
             this.Controls.Add(this.qa_cred_btn);
             this.Controls.Add(this.label2);
@@ -194,6 +266,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button qa_cred_btn;
         private System.Windows.Forms.Button prod_cred_btn;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label qa_current_username;
+        private System.Windows.Forms.Label qa_current_password;
+        private System.Windows.Forms.Label prod_current_username;
+        private System.Windows.Forms.Label prod_current_password;
     }
 }
 
